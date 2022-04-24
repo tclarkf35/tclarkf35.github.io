@@ -4,12 +4,12 @@ body{
     margin: auto;
     line-height: 1.5;
     width: 700px;
-    margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 h1{
     color: black;
+    font-weight: normal;
 }
 p{
     color: black;
