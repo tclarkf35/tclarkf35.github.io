@@ -23,7 +23,7 @@ em1{
 }
 
 a { 
-    white-space: nowrap;
+    white-space: normal;
     text-decoration-line: none;
     display: inline; 
 }
@@ -109,4 +109,23 @@ p{
 
 .btn--twitter:hover {
     background-color:#448abe
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 450px) {
+    .body{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .sidenav{
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 80%; /* Set the width of the sidebar */
+        position: static; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: auto; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: white; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+        padding-left: 0px;
+    }
 }
