@@ -114,12 +114,14 @@ p{
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 450px) {
     .body{
-      width: 90%;
+      width: 100%;
+      margin: 0px;
       padding-left: 0px; /* The width is 100%, when the viewport is 800px or smaller */
     }
     .sidenav{
         height: 100%; /* Full-height: remove this if you want "auto" height */
-        width: 90%; /* Set the width of the sidebar */
+        width: 100%; /* Set the width of the sidebar */
+        margin: 0px;
         position: static; /* Fixed Sidebar (stay in place on scroll) */
         z-index: auto; /* Stay on top */
         top: 0; /* Stay at the top */
